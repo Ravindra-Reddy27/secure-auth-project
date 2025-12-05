@@ -1,0 +1,7 @@
+Docker Image URL : 
+
+https://hub.docker.com/r/ravireddy2005/secure_auth_project/tags
+
+Pull command :
+
+docker pull ravireddy2005/secure_auth_project:latest

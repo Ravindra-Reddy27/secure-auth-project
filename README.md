@@ -21,6 +21,7 @@ If your system already uses 8080 for another application, you can map the contai
 Examples:
 
 `docker run -p 9000:8080 ravireddy2005/secure_auth_project`
+
 `docker run -p 5000:8080 ravireddy2005/secure_auth_project`
 
 Now open:
@@ -29,9 +30,15 @@ Now open:
 (Or whichever host port you selected.)
 
 ## Example Using Docker Compose
+
 Change the port section in `docker-compose.yml` file 
-`ports:
-      - "9000:8080"   # change 9000 to any free port
-`
+
+`ports:`
+
+  `- "9000:8080"   # change 9000 to any free port, if your 8080 port not available. `
+
 Run:
+
 `docker compose up -d`
+
+THANK YOU!
